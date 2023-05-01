@@ -1,0 +1,30 @@
+title: Personal Site from GitHub Pages.
+baseurl: ""
+url: "https://amelua.github.io"
+
+github_username: amelua
+repository: amelua/amelua.github.io
+
+collections:
+  translations:
+    output: true
+    permalink: /:name:output_ext
+
+
+# Build settings
+theme: minima
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - migrate.py
+  - CONTRIBUTING.md
+  - README*.md
