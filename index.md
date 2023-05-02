@@ -19,7 +19,7 @@ has a complete copy of source code.
 
 Team members can send each other code, receive it
 and develop functionalities together and
-separate from the central server.
+separate from central server.
 
 Some advantages of using git:
 
